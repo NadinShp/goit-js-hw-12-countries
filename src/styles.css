@@ -1,0 +1,79 @@
+@import '../node_modules/@pnotify/core/dist/PNotify.css';
+@import '../node_modules/@pnotify/mobile/dist/PNotifyMobile.css';
+@import '@pnotify/core/dist/BrightTheme.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: palegoldenrod;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+ul {
+  padding-left: 20px;
+}
+.country-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.country-title {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+}
+.about-country {
+  list-style: none;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.country-info {
+  font-weight: 400;
+}
+.country-item {
+  font-size: 28px;
+  font-weight: 400;
+}
+.counry-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+.searching-country {
+  padding: 5px 10px;
+  min-width: 200px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+label {
+  padding-top: 50px;
+}
+.input-wrap {
+  padding-top: 35px;
+}
+.country__item {
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.country__item::before {
+  display: inline-block;
+  content: '';
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
